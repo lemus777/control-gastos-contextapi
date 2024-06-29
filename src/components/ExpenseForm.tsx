@@ -54,7 +54,6 @@ export default function ExpenseForm() {
         >Categoría:</label>
         <select
           id="category"
-          placeholder="Añade la cantidad del gasto: ej. 300"
           className="bg-slate-100 p-2"
           name="category"
           value={expense.category}
